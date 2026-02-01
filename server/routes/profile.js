@@ -1,7 +1,7 @@
 import express from "express";
 
 const router = express.Router();
-import { Profile } from "../models/profile.js";
+import { Profile } from "../models/Profile.js";
 
 
 import  auth  from "../middleware/auth.js";
