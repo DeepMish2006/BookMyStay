@@ -4,7 +4,7 @@ const router = express.Router();
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { User } from "../models/User.js";
-import { Profile } from "../models/profile.js";
+import { Profile } from "../models/Profile.js";
 
 //register
 router.post("/", async (req, res) => {
